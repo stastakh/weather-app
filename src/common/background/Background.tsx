@@ -16,9 +16,9 @@ const Background = () => {
         return evening;
       case currentHour > 18 && currentHour <= 20:
         return darkEvening;
-      case currentHour > 20 && currentHour <= 22:
+      case currentHour > 20 && currentHour < 22:
         return preNight;
-      case currentHour > 22 || currentHour <= 4:
+      case currentHour >= 22 || currentHour <= 4:
         return night;
       default:
         return evening;

@@ -3,7 +3,7 @@ export const evening = {
 };
 
 export const darkEvening = {
-  background: 'linear-gradient(to bottom, #B06AB3, #4568DC)',
+  background: 'linear-gradient(to top, #B06AB3, #4568DC)',
 };
 
 export const preNight = {
@@ -11,13 +11,13 @@ export const preNight = {
 };
 
 export const day = {
-  background: 'linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9)',
+  background: 'linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9)',
 };
 
 export const night = {
-  background: 'linear-gradient(to bottom, #004e92, #000428)',
+  background: 'linear-gradient(to top, #004e92, #000428)',
 };
 
 export const morning = {
-  background: 'linear-gradient(to bottom, #FFC371, #FF5F6D)',
+  background: 'linear-gradient(to top, #FFC371, #FF5F6D)',
 };
