@@ -1,6 +1,16 @@
 .background {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   z-index: -1;
   width: 100vw;
   height: 100vh;
+
+  &__light {
+    display: flex;
+  }
+}
+
+.lighter {
+  margin: 70px 20px;
 }

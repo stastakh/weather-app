@@ -15,7 +15,7 @@ const Clock = () => {
     const hour = +date.format('HH');
     const minutes = date.format('mm');
     return {
-      time: `${hour}:${minutes}`,
+      time: `${date.format('HH')}:${minutes}`,
       date: `${date.format('DD')} ${date.format('MMM')} ${date.format('YYYY')}`,
       dayOfWeek: date.format('dddd'),
       dayPart: hour >= 12 ? 'pm' : 'am',

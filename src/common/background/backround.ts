@@ -1,5 +1,5 @@
 export const evening = {
-  background: 'linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71)', 
+  background: 'linear-gradient(to top, #FFAF7B, #D76D77, #3A1C71)', 
 };
 
 export const darkEvening = {
