@@ -1,11 +1,15 @@
 import './App.scss';
 
+import Login from './login/Login';
 import Header from './header/Header';
+import Background from './common/background/Background';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Background />
+      <Header />
+      <Login />
     </div>
   );
 }
